@@ -1,0 +1,61 @@
+message-font: "Linux"
+desktop-image: "background.png"
+title-text: ""
+
+terminal-font: "Linux"
+terminal-border: "0"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ label {
+	top = 20%
+	left = 54%
+	width = 34%
+	height = 40
+	text = "Let's all love Lain"
+	align = "center"
+	color = "#c8c8c8"
+	font = "Linux"
+}
+
++ boot_menu {
+	left = 56%
+	width = 30%
+	top = 25%
+	height = 45%
+	item_color = "#c8c8c8"
+	item_font = "Linux"
+	selected_item_color= "#000000"
+	selected_item_font = "Linux"
+	selected_item_pixmap_style = "button_*.png"
+	item_height = 20
+	item_padding = 0
+	item_spacing = 1
+}
+
++ progress_bar {
+	id = "__timeout__"
+	left = 54%
+	width = 34%
+	top = 60%
+	height = 20
+	text_color = "#000000"
+	fg_color = "#c8c8c8"
+	bg_color = "#909090"
+	font = "Linux"
+	border_color = "#000000"
+	text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
+}
+
++ label {
+	top = 70%
+	left = 54%
+	width = 34%
+	height = 40
+	text = "@KEYMAP_SHORT@"
+	align = "center"
+	color = "#c8c8c8"
+	font = "Linux"
+}
